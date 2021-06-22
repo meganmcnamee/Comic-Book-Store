@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Megan McNamee
+Comic book store UI -->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Comic Book Store UI</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css'>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <div class="book-store">
+        <div class="header">
+            <div class="browse">
+                <div class="browse-category">
+                    Browse Category
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-chevron-down">
+                        <path d="M6 9l6 6 6-6" />
+                    </svg>
+                </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search Comic" />
+                </div>
+            </div>
+            <div class="header-title">saga<span>comics</span></div>
+            <div class="profile">
+                <div class="user-profile">
+                    <img src="https://randomuser.me/api/portraits/women/8.jpg" alt="" class="user-img">
+                </div>
+                <div class="profile-menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+                        <path d="M3 12h18M3 6h18M3 18h18" />
+                    </svg>
+                    Menu
+                </div>
+            </div>
+        </div>
+        <div class="book-slide">
+            <div class="book js-flickity" data-flickity-options='{ "wrapAround": true }'>
+                <div class="book-cell">
+                    <div class="book-img">
+                        <img src="https://assets.skybound.com/wp-content/uploads/2021/04/12155525/SkyboundX1C_WaldenCover-1.jpg"
+                            alt="" class="book-photo">
+                    </div>
+                    <div class="book-content">
+                        <div class="book-title">Skybound X #1</div>
+                        <div class="book-author">by Tillie Walden</div>
+                        <div class="rate">
+                            <fieldset class="rating">
+                                <input type="checkbox" id="star5" name="rating" value="5" />
+                                <label class="full" for="star5"></label>
+                                <input type="checkbox" id="star4" name="rating" value="4" />
+                                <label class="full" for="star4"></label>
+                                <input type="checkbox" id="star3" name="rating" value="3" />
+                                <label class="full" for="star3"></label>
+                                <input type="checkbox" id="star2" name="rating" value="2" />
+                                <label class="full" for="star2"></label>
+                                <input type="checkbox" id="star1" name="rating" value="1" />
+                                <label class="full" for="star1"></label>
+                            </fieldset>
+                            <span class="book-voters">2,587 reviews</span>
+                        </div>
+                        <div class="book-sum">Celebrate a sensational 10 years of Skybound with a cavalcade of your
+                            favorite creators and all-new stories of your favorite series past present, and future!
+                            Each issue of this oversized, weekly series will kick off with a new chapter of a serialized
+                            THE WALKING DEAD story - RICK GRIMES 2000 - by ROBERT KIRKMAN & RYAN OTTLEY! In addition,
+                            we'll be debuting all-new series and characters every issue, starting with the first
+                            appearance of the most requested WALKING DEAD character of all-time: Clementine, star of the
+                            bestselling Telltale's The Walking Dead video game series! Did we mention new ULTRAMEGA and
+                            MANIFEST DESTINY stories?! If you want to know what to expect in Skybound's next 10 years,
+                            it all starts here! FINAL COVER MAY VARY. ALLOCATIONS MAY OCCUR. CGC GRADED 9.6 OR HIGHER!"
+
+
+                        </div>
+                        <div class="book-see">View Comic</div>
+                    </div>
+                </div>
+                <div class="book-cell">
+                    <div class="book-img">
+                        <img src="https://www.midtowncomics.com/images/PRODUCT/XL/2005887_xl.jpg" alt=""
+                            class="book-photo">
+                    </div>
+                    <div class="book-content">
+                        <div class="book-title">Detective Comics Vol 2 #1038
+                        </div>
+                        <div class="book-author">by Mariko Tamaki</div>
+                        <div class="rate">
+                            <fieldset class="rating blue">
+                                <input type="checkbox" id="star6" name="rating" value="5" />
+                                <label class="full1" for="star6"></label>
+                                <input type="checkbox" id="star7" name="rating" value="4" />
+                                <label class="full1" for="star7"></label>
+                                <input type="checkbox" id="star8" name="rating" value="3" />
+                                <label class="full1" for="star8"></label>
+                                <input type="checkbox" id="star9" name="rating" value="2" />
+                                <label class="full1" for="star9"></label>
+                                <input type="checkbox" id="star10" name="rating" value="1" />
+                                <label class="full1" for="star10"></label>
+                            </fieldset>
+                            <span class="book-voters">1,117 reviews</span>
+                        </div>
+                        <div class="book-sum">Batman and MR. WORTH are locked in a deadly duel involving a rocket
+                            launcher and a whole lot of bloody knuckles. </div>
+                        <div class="book-see book-blue">View Comic</div>
+                    </div>
+                </div>
+                <div class="book-cell">
+                    <div class="book-img">
+                        <img src="https://www.midtowncomics.com/images/PRODUCT/FUL/1998908_ful.jpg" alt=""
+                            class="book-photo">
+                    </div>
+                    <div class="book-content">
+                        <div class="book-title">Faith Taking Flight Novel SC</div>
+                        <div class="book-author">by Julie Murphy</div>
+                        <div class="rate">
+                            <fieldset class="rating purple">
+                                <input type="checkbox" id="star11" name="rating" value="5" />
+                                <label class="full" for="star11"></label>
+                                <input type="checkbox" id="star12" name="rating" value="4" />
+                                <label class="full" for="star12"></label>
+                                <input type="checkbox" id="star13" name="rating" value="3" />
+                                <label class="full" for="star13"></label>
+                                <input type="checkbox" id="star14" name="rating" value="2" />
+                                <label class="full" for="star14"></label>
+                                <input type="checkbox" id="star15" name="rating" value="1" />
+                                <label class="full" for="star15"></label>
+                            </fieldset>
+                            <span class="book-voters">1,005 reviews</span>
+                        </div>
+                        <div class="book-sum">Faith Herbert is a pretty regular teen. When she's not hanging out with
+                            her two best friends, Matt and Ches, she's volunteering at the local animal shelter or
+                            obsessing over the long-running teen drama The Grove.</div>
+                        <div class="book-see book-pink">View Comic</div>
+                    </div>
+                </div>
+                <div class="book-cell">
+                    <div class="book-img">
+                        <img src="https://www.midtowncomics.com/images/PRODUCT/FUL/2004216_ful.jpg" alt=""
+                            class="book-photo">
+                    </div>
+                    <div class="book-content">
+                        <div class="book-title">Bequest #4 </div>
+                        <div class="book-author">by Tim Seeley</div>
+                        <div class="rate">
+                            <fieldset class="rating yellow">
+                                <input type="checkbox" id="star16" name="rating" value="5" />
+                                <label class="full" for="star16"></label>
+                                <input type="checkbox" id="star17" name="rating" value="4" />
+                                <label class="full" for="star17"></label>
+                                <input type="checkbox" id="star18" name="rating" value="3" />
+                                <label class="full" for="star18"></label>
+                                <input type="checkbox" id="star19" name="rating" value="2" />
+                                <label class="full" for="star19"></label>
+                                <input type="checkbox" id="star20" name="rating" value="1" />
+                                <label class="full" for="star20"></label>
+                            </fieldset>
+                            <span class="book-voters">1,690 reviews</span>
+                        </div>
+                        <div class="book-sum">The epic conclusion as the War Party converges on Washington to stop
+                            the Mad Monk and his American Acolytes from murdering a god!
+                        </div>
+                        <div class="book-see book-yellow">View Comic</div>
+                    </div>
+                </div>
+                <div class="book-cell">
+                    <div class="book-img">
+                        <img src="https://www.midtowncomics.com/images/PRODUCT/FUL/2004347_ful.jpg" alt=""
+                            class="book-photo">
+                    </div>
+                    <div class="book-content">
+                        <div class="book-title">After You</div>
+                        <div class="book-author">by Bryan Hill</div>
+                        <div class="rate">
+                            <fieldset class="rating dark-purp">
+                                <input type="checkbox" id="star21" name="rating" value="5" />
+                                <label class="full" for="star21"></label>
+                                <input type="checkbox" id="star22" name="rating" value="4" />
+                                <label class="full" for="star22"></label>
+                                <input type="checkbox" id="star23" name="rating" value="3" />
+                                <label class="full" for="star23"></label>
+                                <input type="checkbox" id="star24" name="rating" value="2" />
+                                <label class="full" for="star24"></label>
+                                <input type="checkbox" id="star25" name="rating" value="1" />
+                                <label class="full" for="star25"></label>
+                            </fieldset>
+                            <span class="book-voters">2,576 reviews</span>
+                        </div>
+                        <div class="book-sum">The Chariot was a Cold War-era secret government project to provide its
+                            star agent with a weapon unlike any other in the form of a super-charged muscle car. It sank
+                            into the ocean decades ago, and the agent along with it. Now, a petty criminal looking to
+                            reform his life has stumbled upon the Chariot, and he's about to find out that the agent's
+                            consciousness is still controlling it in this synthwave thriller.
+
+                        </div>
+                        <div class="book-see book-purple">View Comic</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-wrapper">
+            <div class="books-of">
+                <div class="week">
+                    <div class="author-title">Author of the week</div>
+                    <div class="author">
+                        <img src="https://images.unsplash.com/photo-1600486913747-55e5470d6f40?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                            alt="" class="author-img">
+                        <div class="author-name">Miles Millian</div>
+                    </div>
+                    <div class="author">
+                        <img src="https://images.unsplash.com/flagged/photo-1574874897534-036671407eda?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=698&q=80"
+                            alt="" class="author-img">
+                        <div class="author-name">Jack DeSena</div>
+                    </div>
+                    <div class="author">
+                        <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                            alt="" class="author-img">
+                        <div class="author-name">Cassandra Smith</div>
+                    </div>
+                    <div class="author">
+                        <img src="https://images.unsplash.com/photo-1557555187-23d685287bc3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80"
+                            alt="" class="author-img">
+                        <div class="author-name">Ava Rogers</div>
+                    </div>
+                    <div class="author">
+                        <img src="https://images.unsplash.com/photo-1566492031773-4f4e44671857?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80"
+                            alt="" class="author-img">
+                        <div class="author-name">Nick Franklin</div>
+                    </div>
+                    <div class="author">
+                        <img src="https://images.unsplash.com/photo-1477118476589-bff2c5c4cfbb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                            alt="" class="author-img">
+                        <div class="author-name">Cassidy Wells</div>
+                    </div>
+                </div>
+                <div class="week year">
+                    <div class="author-title">Comics of the year</div>
+                    <div class="year-book">
+                        <img src="https://www.midtowncomics.com/images/PRODUCT/FUL/2005869_ful.jpg" alt=""
+                            class="year-book-img">
+                        <div class="year-book-content">
+                            <div class="year-book-name">
+                                Batman Vol 3 #109 </div>
+                            <div class="year-book-author">by James Tynion IV</div>
+                        </div>
+                    </div>
+                    <div class="year-book">
+                        <img src="https://www.midtowncomics.com/images/PRODUCT/FUL/1997351_ful.jpg" alt=""
+                            class="year-book-img">
+                        <div class="year-book-content">
+                            <div class="year-book-name">Amazing Spider-Man Vol 5 #66</div>
+                            <div class="year-book-author">by Nick Spencer</div>
+                        </div>
+                    </div>
+                    <div class="year-book">
+                        <img src="https://www.midtowncomics.com/images/PRODUCT/FUL/1997485_ful.jpg" alt=""
+                            class="year-book-img">
+                        <div class="year-book-content">
+                            <div class="year-book-name">Phantoms: A Thriller </div>
+                            <div class="year-book-author">by Jonathan Hickman</div>
+                        </div>
+                    </div>
+                    <div class="year-book">
+                        <img src="https://www.midtowncomics.com/images/PRODUCT/FUL/2003735_ful.jpg" alt=""
+                            class="year-book-img">
+                        <div class="year-book-content">
+                            <div class="year-book-name">House Of Lost Horizons A Sarah Jewell Mystery #2</div>
+                            <div class="year-book-author">by Mike Mignola</div>
+                        </div>
+                    </div>
+                    <div class="year-book">
+                        <img src="https://www.midtowncomics.com/images/PRODUCT/FUL/1997343_ful.jpg" alt=""
+                            class="year-book-img">
+                        <div class="year-book-content">
+                            <div class="year-book-name">Walking Dead Deluxe #15 </div>
+                            <div class="year-book-author">by Robert Kirkman</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="overlay"></div>
+            </div>
+            <div class="popular-books">
+                <div class="main-menu">
+                    <div class="genre">Popular by Genre</div>
+                    <div class="book-types">
+                        <a href="#" class="book-type active"> All Genres</a>
+                        <a href="#" class="book-type"> Dark Horse</a>
+                        <a href="#" class="book-type"> DC </a>
+                        <a href="#" class="book-type"> Image Comics</a>
+                        <a href="#" class="book-type"> Marvel</a>
+                        <a href="#" class="book-type"> Independents</a>
+                    </div>
+                </div>
+                <div class="book-cards">
+                    <div class="book-card">
+                        <div class="content-wrapper">
+                            <img src="https://www.midtowncomics.com/images/PRODUCT/FUL/2003725_ful.jpg" alt=""
+                                class="book-card-img">
+                            <div class="card-content">
+                                <div class="book-name">
+                                    Black Hammer Visions #5</div>
+                                <div class="book-by">by Kelly Thompson</div>
+                                <div class="rate">
+                                    <fieldset class="rating book-rate">
+                                        <input type="checkbox" id="star-c1" name="rating" value="5">
+                                        <label class="full" for="star-c1"></label>
+                                        <input type="checkbox" id="star-c2" name="rating" value="4">
+                                        <label class="full" for="star-c2"></label>
+                                        <input type="checkbox" id="star-c3" name="rating" value="3">
+                                        <label class="full" for="star-c3"></label>
+                                        <input type="checkbox" id="star-c4" name="rating" value="2">
+                                        <label class="full" for="star-c4"></label>
+                                        <input type="checkbox" id="star-c5" name="rating" value="1">
+                                        <label class="full" for="star-c5"></label>
+                                    </fieldset>
+                                    <span class="book-voters card-vote">1,112 reviews</span>
+                                </div>
+                                <div class="book-sum card-sum">An exciting reimagination of the Eisner Award-winning
+                                    Black Hammer series told by guest writers and artists such as Patton Oswalt, Geoff
+                                    Johns, Mariko Tamaki, Chip Zdarsky, Kelly Thompson, and more of comic's top talents!
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="likes">
+
+                            <div class="like-profile">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="book-card">
+                        <div class="content-wrapper">
+                            <img src="https://www.midtowncomics.com/images/PRODUCT/FUL/2005821_ful.jpg" alt=""
+                                class="book-card-img">
+                            <div class="card-content">
+                                <div class="book-name">
+                                    Infinite Frontier #1</div>
+                                <div class="book-by">by Joshua Williamson</div>
+                                <div class="rate">
+                                    <fieldset class="rating book-rate">
+                                        <input type="checkbox" id="star-c6" name="rating" value="5">
+                                        <label class="full" for="star-c6"></label>
+                                        <input type="checkbox" id="star-c7" name="rating" value="4">
+                                        <label class="full" for="star-c7"></label>
+                                        <input type="checkbox" id="star-c8" name="rating" value="3">
+                                        <label class="full" for="star-c8"></label>
+                                        <input type="checkbox" id="star-c9" name="rating" value="2">
+                                        <label class="full" for="star-c9"></label>
+                                        <input type="checkbox" id="star-c10" name="rating" value="1">
+                                        <label class="full" for="star-c10"></label>
+                                    </fieldset>
+                                    <span class="book-voters card-vote">9,987 reviews</span>
+                                </div>
+                                <div class="book-sum card-sum">When our heroes saved the Multiverse from Perpetua in
+                                    Dark Nights: Death Metal, everything was put back where it belonged...and we do mean
+                                    everything. All the damage from all the Crises was undone, and heroes long thought
+                                    gone returned from whatever exile they had been in. Most of them, at least. Alan
+                                    Scott, the Green Lantern from the Justice Society of America, has noticed some of
+                                    his allies are still missing in action, and he’s determined to find them. There are
+                                    others, though, who would rather remain hidden than explain themselves, like Roy
+                                    Harper, a.k.a. Arsenal, a man who should be dead but now is not.
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="book-card">
+                        <div class="content-wrapper">
+                            <img src="https://www.midtowncomics.com/images/PRODUCT/FUL/2005924_ful.jpg" alt=""
+                                class="book-card-img">
+                            <div class="card-content">
+                                <div class="book-name">
+                                    Superman Vol 6 #32</div>
+                                <div class="book-by">by Phillip Kennedy Johnson</div>
+                                <div class="rate">
+                                    <fieldset class="rating book-rate">
+                                        <input type="checkbox" id="star-c11" name="rating" value="5">
+                                        <label class="full" for="star-c11"></label>
+                                        <input type="checkbox" id="star-c12" name="rating" value="4">
+                                        <label class="full" for="star-c12"></label>
+                                        <input type="checkbox" id="star-c13" name="rating" value="3">
+                                        <label class="full" for="star-c13"></label>
+                                        <input type="checkbox" id="star-c14" name="rating" value="2">
+                                        <label class="full" for="star-c14"></label>
+                                        <input type="checkbox" id="star-c15" name="rating" value="1">
+                                        <label class="full" for="star-c15"></label>
+                                    </fieldset>
+                                    <span class="book-voters card-vote">1,283 reviews</span>
+                                </div>
+                                <div class="book-sum card-sum">Superman and Superboy were duped by the old
+                                    divide-and-conquer routine, which is especially dangerous on a faraway planet where
+                                    you can’t tell who your enemy is. As the Shadowbreed makes their big move, Superman
+                                    discovers what happened to the friend who originally sent the distress beacon that
+                                    lured him and his son across the galaxy. Let’s just hope it’s not an answer that
+                                    came too late! Elsewhere, back home on Earth, Jimmy Olsen leads his misfit team on
+                                    the hunt for the sinister Projectress.">The end of "The One Who Fell"!
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="likes">
+
+
+                        </div>
+                    </div>
+                    <div class="book-card">
+                        <div class="content-wrapper">
+                            <img src="https://www.midtowncomics.com/images/PRODUCT/FUL/2003633_ful.jpg" alt=""
+                                class="book-card-img">
+                            <div class="card-content">
+                                <div class="book-name">
+                                    Home Sick Pilots #6</div>
+                                <div class="book-by">by Dan Watters</div>
+                                <div class="rate">
+                                    <fieldset class="rating book-rate">
+                                        <input type="checkbox" id="star-c16" name="rating" value="5">
+                                        <label class="full" for="star-c16"></label>
+                                        <input type="checkbox" id="star-c17" name="rating" value="4">
+                                        <label class="full" for="star-c17"></label>
+                                        <input type="checkbox" id="star-18" name="rating" value="3">
+                                        <label class="full" for="star-c18"></label>
+                                        <input type="checkbox" id="star-c19" name="rating" value="2">
+                                        <label class="full" for="star-c19"></label>
+                                        <input type="checkbox" id="star-c20" name="rating" value="1">
+                                        <label class="full" for="star-c20"></label>
+                                    </fieldset>
+                                    <span class="book-voters card-vote">2,945 reviews</span>
+                                </div>
+                                <div class="book-sum card-sum">It's three months since a haunted house walked through
+                                    Santa Manos - and now the US military would like a walking ghost-powered weapon of
+                                    their very own, thank you very much. The Home Sick Pilots might be the key to their
+                                    getting one. If they can be convinced to sell out, that is.
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="likes">
+
+                            <div class="like-profile">
+
+                            </div>
+                            <div class="like-profile">
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="book-card">
+                        <div class="content-wrapper">
+                            <img src="https://www.midtowncomics.com/images/PRODUCT/FUL/2003687_ful.jpg" alt=""
+                                class="book-card-img">
+                            <div class="card-content">
+                                <div class="book-name">
+                                    Old Guard Tales Through Time #3 </div>
+                                <div class="book-by">by Kelly Sue DeConnick</div>
+                                <div class="rate">
+                                    <fieldset class="rating book-rate">
+                                        <input type="checkbox" id="star-c21" name="rating" value="5">
+                                        <label class="full" for="star-c21"></label>
+                                        <input type="checkbox" id="star-c22" name="rating" value="4">
+                                        <label class="full" for="star-c22"></label>
+                                        <input type="checkbox" id="star-c23" name="rating" value="3">
+                                        <label class="full" for="star-c23"></label>
+                                        <input type="checkbox" id="star-c24" name="rating" value="2">
+                                        <label class="full" for="star-c24"></label>
+                                        <input type="checkbox" id="star-c25" name="rating" value="1">
+                                        <label class="full" for="star-c25"></label>
+                                    </fieldset>
+                                    <span class="book-voters card-vote">1,883 reviews</span>
+                                </div>
+                                <div class="book-sum card-sum">The superstar POWERS team of BRIAN MICHAEL BENDIS,
+                                    MICHAEL AVON OEMING, and TAKI SOMA takes on the immortals!
+                                    It's the '70s, and Andy stumbles straight out of battle to come face to face with
+                                    the last person she ever expected to see! </div>
+                            </div>
+                        </div>
+                        <div class="likes">
+
+                            <div class="like-profile">
+
+                            </div>
+                            <div class="like-profile">
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="book-card">
+                        <div class="content-wrapper">
+                            <img src="https://www.midtowncomics.com/images/PRODUCT/FUL/37883_ful.jpg" alt=""
+                                class="book-card-img">
+                            <div class="card-content">
+                                <div class="book-name">
+                                    Invincible #5 </div>
+                                <div class="book-by">by Robert Kirkman</div>
+                                <div class="rate">
+                                    <fieldset class="rating book-rate">
+                                        <input type="checkbox" id="star-c1" name="rating" value="5">
+                                        <label class="full" for="star-c1"></label>
+                                        <input type="checkbox" id="star-c2" name="rating" value="4">
+                                        <label class="full" for="star-c2"></label>
+                                        <input type="checkbox" id="star-c3" name="rating" value="3">
+                                        <label class="full" for="star-c3"></label>
+                                        <input type="checkbox" id="star-c4" name="rating" value="2">
+                                        <label class="full" for="star-c4"></label>
+                                        <input type="checkbox" id="star-c5" name="rating" value="1">
+                                        <label class="full" for="star-c5"></label>
+                                    </fieldset>
+                                    <span class="book-voters card-vote">1,774 reviews</span>
+                                </div>
+                                <div class="book-sum card-sum">After the hectic events of INVINCIBLE, VOL. 4: HEAD OF
+                                    THE CLASS, Mark — aka Invincible — while continuing to deal with the loss of his
+                                    father, finds himself face to face with piles of villains and the worst conflict of
+                                    all: teenage love!
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="likes">
+
+                        </div>
+                        <div class="like-profile">
+
+                        </div>
+                    </div>
+                    <div class="book-card">
+                        <div class="content-wrapper">
+                            <img src="https://www.midtowncomics.com/images/PRODUCT/FUL/1971303_ful.jpg" alt=""
+                                class="book-card-img">
+                            <div class="card-content">
+                                <div class="book-name">
+                                    Giga #4 </div>
+                                <div class="book-by">by Alex Paknadel</div>
+                                <div class="rate">
+                                    <fieldset class="rating book-rate">
+                                        <input type="checkbox" id="star-c1" name="rating" value="5">
+                                        <label class="full" for="star-c1"></label>
+                                        <input type="checkbox" id="star-c2" name="rating" value="4">
+                                        <label class="full" for="star-c2"></label>
+                                        <input type="checkbox" id="star-c3" name="rating" value="3">
+                                        <label class="full" for="star-c3"></label>
+                                        <input type="checkbox" id="star-c4" name="rating" value="2">
+                                        <label class="full" for="star-c4"></label>
+                                        <input type="checkbox" id="star-c5" name="rating" value="1">
+                                        <label class="full" for="star-c5"></label>
+                                    </fieldset>
+                                    <span class="book-voters card-vote">1,104 reviews</span>
+                                </div>
+                                <div class="book-sum card-sum">Finally reunited with Evan, Aiko reveals a secret that
+                                    will shake the city to its foundations. Meanwhile, the Order's persecution of the
+                                    Dusters passes a bloody point of no return. Allegiances switch and battle lines are
+                                    drawn as the terrible truth of the Giga's origins is finally revealed. </div>
+                            </div>
+                        </div>
+                        <div class="likes">
+
+                            <div class="like-profile">
+
+                            </div>
+                            <div class="like-profile">
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="book-card">
+                        <div class="content-wrapper">
+                            <img src="https://www.midtowncomics.com/images/PRODUCT/FUL/2004358_ful.jpg" alt=""
+                                class="book-card-img">
+                            <div class="card-content">
+                                <div class="book-name">
+                                    MFKZ #1 </div>
+                                <div class="book-by">by Anthony Roux </div>
+                                <div class="rate">
+                                    <fieldset class="rating book-rate">
+                                        <input type="checkbox" id="star-c1" name="rating" value="5">
+                                        <label class="full" for="star-c1"></label>
+                                        <input type="checkbox" id="star-c2" name="rating" value="4">
+                                        <label class="full" for="star-c2"></label>
+                                        <input type="checkbox" id="star-c3" name="rating" value="3">
+                                        <label class="full" for="star-c3"></label>
+                                        <input type="checkbox" id="star-c4" name="rating" value="2">
+                                        <label class="full" for="star-c4"></label>
+                                        <input type="checkbox" id="star-c5" name="rating" value="1">
+                                        <label class="full" for="star-c5"></label>
+                                    </fieldset>
+                                    <span class="book-voters card-vote">2,745 reviews</span>
+                                </div>
+                                <div class="book-sum card-sum">The NETFLIX distributed hit movie by Studio 4°C (Batman:
+                                    Gotham Knight, The Animatrix) comes to comics with an over-sized #1 event! Jump in
+                                    the unique world created by legendary artist Run following Angelino and his
+                                    flaming-skull pal Vinz, who live in a gang and cockroach infested dystopian
+                                    metropolis called DMC, a city that hides secrets even weirder than its inhabitants.
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="likes">
+                            <div class="like-profile">
+
+                            </div>
+                            <div class="like-profile">
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+</body>
+
+</html>
